@@ -17,3 +17,6 @@ https://espare.tk/live/m_estrenos.m3u8?token=QCkTM1x7Ffih7IIdfmh8fg&expires=1605
 
 #EXTINF:-1 tvg-id="M. LaLiga" tvg-name="LA LIGA TV BAR FHD" tvg-logo="https://www.andorratelecom.com/at/llistat-canals/canals/208-laliga-tv-bar.png" group-title="[ESP] FUTBOL VIP",LA LIGA TV BAR FHD
 https://espare.tk/live/m_liga.m3u8?token=ERrZQL6H-Fo-8sZUQBFriQ&expires=1605403854
+
+#EXTINF:-1 ,CCK
+https://s3.amazonaws.com/4kmoviesclub.co/ad/player_dark/colpic.mp4
