@@ -14,6 +14,5 @@ https://livestartover-i.akamaized.net/lasexta/bitrate_4.m3u8
 
 #EXTINF:-1 tvg-id="M. ESTRENOS" tvg-name="MOVISTAR ESTRENOS HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/M_estrenos.png" group-title="[ESP] MOVISTAR CANALES",MOVISTAR ESTRENOS HD
 https://espare.tk/live/m_estrenos.m3u8?token=QCkTM1x7Ffih7IIdfmh8fg&expires=1605403353
-
 #EXTINF:-1 tvg-id="M. LaLiga" tvg-name="LA LIGA TV BAR FHD" tvg-logo="https://www.andorratelecom.com/at/llistat-canals/canals/208-laliga-tv-bar.png" group-title="[ESP] FUTBOL VIP",LA LIGA TV BAR FHD
 https://espare.tk/live/m_liga.m3u8?token=ERrZQL6H-Fo-8sZUQBFriQ&expires=1605403854
