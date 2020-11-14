@@ -11,3 +11,6 @@ https://00f74ba44b91b4a5f9023d7aa2c9ed1eac339a8fc1-apidata.googleusercontent.com
 
 #EXTINF:-1 tvg-id="LA SEXTA" tvg-name="LA SEXTA  FHD" tvg-logo="https://i.pinimg.com/originals/8f/4f/66/8f4f66408ba733251d17b0d0c4d63922.png" group-title="[ESP] TDT",LA SEXTA  FHD
 https://livestartover-i.akamaized.net/lasexta/bitrate_4.m3u8
+
+#EXTINF:-1 tvg-id="M. ESTRENOS" tvg-name="MOVISTAR ESTRENOS HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/M_estrenos.png" group-title="[ESP] MOVISTAR CANALES",MOVISTAR ESTRENOS HD
+https://perocomato152.caraponi.me/live/plusestrenos/index.m3u8?token=Ni8z1CyF0zh4kMyVzw3Oqw&expires=1605467877
