@@ -1,6 +1,7 @@
 #EXTINF:-1 tvg-logo="img/canales/la2.png" group-title="Disponible",LA 2
 https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@60414/master.m3u8
 #EXTINF:-1 tvg-logo="img/canales/la2.png" group-title="Disponible",LA 
-https://rtvelivestream.akamaized.net/la2_dvr.m3u8
-#EXTINF:-1 tvg-logo="img/canales/la2.png" group-title="Disponible",LA3
-http://www.rtve.es/directo/la-2/
+https://cdn.dailysport.pw/2/2.m3u8
+#EXTINF:-1 tvg-logo="img/canales/la2.png" group-title="Disponible",L
+https://cdn.dailysport.pw/3/3.m3u8
+
