@@ -1,22 +1,2 @@
-#EXTINF:-1 tvg-logo="img/canales/la1.png" group-title="Disponible",LA 1
-https://rtvelivestream.akamaized.net/la1_dvr.m3u8, 6, https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@584096/master.m3u8/master.m3u8, 6, https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8, 6, la_1, 1, la_1, 2, http://www.rtve.es/directo/la-1/, 1, 1, 0, 0, 0, 0, 1
 #EXTINF:-1 tvg-logo="img/canales/la2.png" group-title="Disponible",LA 2
-https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@60414/master.m3u8, 6, https://rtvelivestream.akamaized.net/la2_dvr.m3u8, 6, la_2, 2, la_2, 1, , 0, http://www.rtve.es/directo/la-2/, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/antena3.png" group-title="Disponible",Antena 3
-https://livestartover.atresmedia.com/antena3/master.m3u8, 6, https://livestartover.atresmedia.com/geoantena3/master.m3u8, 6, antena_3, 2, antena3, 1, , 0, http://www.atresplayer.com/directos/television/antena3/, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/cuatro.png" group-title="Disponible",Cuatro
-https://linear02-i.akamaihd.net/hls/live/837811/cuatro/01.m3u8, 6, https://linear02-i.akamaihd.net/hls/live/837811/cuatro/03.m3u8, 6, cuatro, 2, cuatro, 1, , 0, https://www.mitele.es/directo/cuatro, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/telecinco.png" group-title="Disponible",Telecinco
-https://linear01-i.akamaihd.net/hls/live/837810/telecinco/01.m3u8, 6, https://linear01-i.akamaihd.net/hls/live/837810/telecinco/03.m3u8, 6, telecinco, 1, telecinco, 2, , 0, https://www.mitele.es/directo/telecinco, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/seis.png" group-title="Disponible",La Sexta
-https://livestartover.atresmedia.com/geolasexta/master.m3u8, 6, https://livestartover.atresmedia.com/lasexta/master.m3u8, 6, la_sexta, 2, la_sexta, 1, , 0, http://www.atresplayer.com/directos/television/lasexta/, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/24h.png" group-title="Disponible",24 Horas
-https://rtvelivestream.akamaized.net/24h_dvr.m3u8, 6, https://rtvelivestream.akamaized.net/24h_dvr.m3u8, 6, , 0, , 0, , 0, http://www.rtve.es/directo/canal-24h/, 1, 1, 0, 0, 1, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/neox.png" group-title="Disponible",Neox
-https://livestartover.atresmedia.com/geoneox/master.m3u8, 6, neox, 1, neox, 2, , 0, , 0, http://www.atresplayer.com/directos/television, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/nova.png" group-title="Disponible",Nova
-https://livestartover.atresmedia.com/geonova/master.m3u8, 6, nova, 1, nova, 2, , 0, , 0, http://www.atresplayer.com/directos/television, 1, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/fdf.png" group-title="Series",FactorÃ­a de FicciÃ³n
-https://linear02-i.akamaihd.net/hls/live/837813/fdf/01.m3u8, 6, fdf, 1, fdf, 2, , 0, , 0, , 0, 1, 0, 0, 0, 0, 1
-#EXTINF:-1 tvg-logo="img/canales/.png" group-title="Series",Telemundo
-telemundo, 2, telemundo, 1, 
+https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@60414/master.m3u8
