@@ -1,2 +1,515 @@
-#EXTINF: -1 CINEPREMIUM-logo = "https://miempresaessaludable.com/wp-content/uploads/imagenes_principal/article-en-busca-de-la-felicidad-586377a89d83f.jpg" group-title = "Disponible", EN BUSCA DE LA FELICIDAD
-https://s5.netu.tv/download/EHur6O5vRsmvrJQHBO8_NA/1616166583/flv/api/files/videos/2021/02/19/1613702867ofzwb.mp4
+{
+  "license": {
+    "source": "https://github.com/LaQuay/TDTChannels",
+    "url": "https://github.com/LaQuay/TDTChannels/blob/master/LICENSE"
+  },
+  "epg": {
+    "xml": "https://www.tdtchannels.com/epg/TV.xml",
+    "xml.gz": "https://www.tdtchannels.com/epg/TV.xml.gz",
+    "json": "https://www.tdtchannels.com/epg/TV.json"
+  },
+  "countries": [
+    {
+      "name": "Spain",
+      "ambits": [
+        {
+          "name": "Generalistas",
+          "channels": [
+            {
+              "name": "La 1",
+              "web": "https://www.rtve.es/directo/la-1/",
+              "logo": "https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg",
+              "epg_id": "La1.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/la1_dvr.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "m3u8",
+                  "url": "https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@584096/master.m3u8",
+                  "geo2": "SP",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "m3u8",
+                  "url": "https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "La 2",
+              "web": "https://www.rtve.es/directo/la-2/",
+              "logo": "https://graph.facebook.com/la2detve/picture?width=200&height=200",
+              "epg_id": "La2.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/la2_dvr.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "m3u8",
+                  "url": "https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@60414/master.m3u8",
+                  "geo2": "SP",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "m3u8",
+                  "url": "https://hlsliveamdgl0-lh.akamaihd.net/i/hlsdvrlive_1@60531/master.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "Antena 3",
+              "web": "https://www.atresplayer.com/directos/antena3/",
+              "logo": "https://graph.facebook.com/antena3/picture?width=200&height=200",
+              "epg_id": "Antena3.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Cuatro",
+              "web": "https://www.mitele.es/directo/cuatro",
+              "logo": "https://graph.facebook.com/cuatro/picture?width=200&height=200",
+              "epg_id": "Cuatro.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Telecinco",
+              "web": "https://www.mitele.es/directo/telecinco",
+              "logo": "https://graph.facebook.com/tele5/picture?width=200&height=200",
+              "epg_id": "Telecinco.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "laSexta",
+              "web": "https://www.atresplayer.com/directos/lasexta/",
+              "logo": "https://graph.facebook.com/laSexta/picture?width=200&height=200",
+              "epg_id": "LaSexta.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Neox",
+              "web": "https://www.atresplayer.com/directos/neox/",
+              "logo": "https://graph.facebook.com/neox/picture?width=200&height=200",
+              "epg_id": "Neox.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Nova",
+              "web": "https://www.atresplayer.com/directos/nova/",
+              "logo": "https://graph.facebook.com/novatdt/picture?width=200&height=200",
+              "epg_id": "Nova.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Mega",
+              "web": "https://www.atresplayer.com/directos/mega/",
+              "logo": "https://graph.facebook.com/megaTDT/picture?width=200&height=200",
+              "epg_id": "Mega.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Atreseries",
+              "web": "https://www.atresplayer.com/directos/atreseries/",
+              "logo": "https://graph.facebook.com/atreseries/picture?width=200&height=200",
+              "epg_id": "Atreseries.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://livestartover.atresmedia.com/geoa3series/master.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "FDF",
+              "web": "https://www.mitele.es/directo/fdf",
+              "logo": "https://graph.facebook.com/factoriadeficcion/picture?width=200&height=200",
+              "epg_id": "FDF.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Energy",
+              "web": "https://www.mitele.es/directo/energy",
+              "logo": "https://graph.facebook.com/E.EnergyTV/picture?width=200&height=200",
+              "epg_id": "Energy.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Divinity",
+              "web": "https://www.mitele.es/directo/divinity",
+              "logo": "https://graph.facebook.com/divinityes/picture?width=200&height=200",
+              "epg_id": "Divinity.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Be Mad",
+              "web": "https://www.mitele.es/directo/bemad",
+              "logo": "https://graph.facebook.com/BeMadTV/picture?width=200&height=200",
+              "epg_id": "Bemad.TV",
+              "options": [],
+              "extra_info": [
+                "W3U",
+                "EMB",
+                "EXTA"
+              ]
+            },
+            {
+              "name": "TRECE",
+              "web": "https://www.cope.es/directos/trece",
+              "logo": "https://graph.facebook.com/TRECEtves/picture?width=200&height=200",
+              "epg_id": "13.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "El Toro TV",
+              "web": "https://eltorotv.com/tv-en-directo",
+              "logo": "https://graph.facebook.com/eltorotv.es/picture?width=200&height=200",
+              "epg_id": "ElToroTV.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://live1-eltorotv.flumotion.com/playlist.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "mtmad 24h",
+              "web": "https://www.mitele.es/directo/mtmad-24h",
+              "logo": "https://graph.facebook.com/mtmad.es/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://mdssplive-lh.akamaihd.net/i/mtmad_1@744785/index_2500_av-b.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EXTA"
+              ]
+            },
+            {
+              "name": "Ten",
+              "web": "https://tentv.es/",
+              "logo": "https://graph.facebook.com/televisionten/picture?width=200&height=200",
+              "epg_id": "TEN.TV",
+              "options": [],
+              "extra_info": [
+                "NOEM"
+              ]
+            },
+            {
+              "name": "DMAX",
+              "web": "https://es.dplay.com/dmax/",
+              "logo": "https://graph.facebook.com/DMAXes/picture?width=200&height=200",
+              "epg_id": "DMax.TV",
+              "options": [],
+              "extra_info": [
+                "NOEM"
+              ]
+            },
+            {
+              "name": "DKISS",
+              "web": "https://es.dplay.com/dkiss/",
+              "logo": "https://graph.facebook.com/DKissTV/picture?width=200&height=200",
+              "epg_id": "DKISS.TV",
+              "options": [],
+              "extra_info": [
+                "NOEM"
+              ]
+            },
+            {
+              "name": "Paramount Network",
+              "web": "https://www.paramountnetwork.es",
+              "logo": "https://graph.facebook.com/ParamountNetworkES/picture?width=200&height=200",
+              "epg_id": "Paramount.TV",
+              "options": [],
+              "extra_info": [
+                "NOEM"
+              ]
+            },
+            {
+              "name": "BOM Cine",
+              "web": "https://www.bomcine.com/",
+              "logo": "https://graph.facebook.com/BOMCINEtv/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [],
+              "extra_info": [
+                "NOEM"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Informativos",
+          "channels": [
+            {
+              "name": "24h",
+              "web": "https://www.rtve.es/directo/canal-24h/",
+              "logo": "https://pbs.twimg.com/profile_images/1144547866393882626/2R0Khn5n_200x200.png",
+              "epg_id": "24Horas.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://rtvelivestream.akamaized.net/24h_main_dvr.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "Nius",
+              "web": "https://www.niusdiario.es/",
+              "logo": "https://graph.facebook.com/NiusDiario/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://mdslivehlsb-i.akamaihd.net/hls/live/875601-b/niusdiario/01.m3u8",
+                  "geo2": null,
+                  "res": "HD",
+                  "lang": null
+                },
+                {
+                  "format": "m3u8",
+                  "url": "https://mdslivehlsb-i.akamaihd.net/hls/live/875601-b/niusdiario/03.m3u8",
+                  "geo2": null,
+                  "res": "SD",
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "Euronews",
+              "web": "https://es.euronews.com/embed/live",
+              "logo": "https://graph.facebook.com/es.euronews/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "youtube",
+                  "url": "https://www.youtube.com/channel/UCyoGb3SMlTlB8CLGVH4c8Rw/live",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "RT",
+              "web": "https://actualidad.rt.com/en_vivo2",
+              "logo": "https://graph.facebook.com/ActualidadRT/picture?width=200&height=200",
+              "epg_id": "RTESP.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://rt-esp-gd.secure2.footprint.net/1102.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "El Pa\u00eds",
+              "web": "https://elpais.com/",
+              "logo": "https://graph.facebook.com/elpais/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "youtube",
+                  "url": "https://www.youtube.com/channel/UCnsvJeZO4RigQ898WdDNoBw/live",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "La Vanguardia",
+              "web": "https://www.lavanguardia.com/",
+              "logo": "https://graph.facebook.com/LaVanguardia/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "youtube",
+                  "url": "https://www.youtube.com/channel/UClLLRs_mFTsNT5U-DqTYAGg/live",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "EuropaPress TV",
+              "web": "https://www.europapress.tv/",
+              "logo": "https://graph.facebook.com/europapress.es/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://cdnlive.shooowit.net/europapresslive/ep.smil/master.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "Agencia EFE",
+              "web": "https://www.efe.com/",
+              "logo": "https://graph.facebook.com/AgenciaEFEnoticias/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "youtube",
+                  "url": "https://www.youtube.com/channel/UCvJS-YNyaWyOucx8bGrHVvw/live",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "Libertad Digital TV",
+              "web": "https://tv.libertaddigital.com/directo.html",
+              "logo": "https://graph.facebook.com/libertad.digital.tv/picture?width=200&height=200",
+              "epg_id": "Libertad.TV",
+              "options": [
+                {
+                  "format": "stream",
+                  "url": "https://www.dailymotion.com/embed/video/xnm032?autoplay=1",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "Negocios TV",
+              "web": "https://www.negocios.es/",
+              "logo": "https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg",
+              "epg_id": "Negocios.TV",
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://play.gooru.live/playnegocios/_definst_/5646-1603313320000/master.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            }
+          ]
+        },
+        {
+          "name": "Deportivos",
+          "channels": [
+            {
+              "name": "Teledeporte",
+              "web": 
